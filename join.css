@@ -1,0 +1,69 @@
+body {
+  background-color: Black;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  font-family: sans-serif; /* Fonte limpa e minimalista */
+}
+
+.barra-superior {
+  padding: 20px 40px;
+  display: flex;
+  /* ESTE É O COMANDO QUE JOGA PARA A DIREITA: */
+  justify-content: flex-end;
+  background-color: #111;
+}
+
+.itens-menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px; /* Espaço entre os itens */
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.itens-menu a:hover {
+  color: #888;
+}
+
+h1 {
+  font-size: 120px;
+  letter-spacing: 20px;
+}
+
+.join {
+  color: #fff;
+}
+
+.botao-modo {
+    width: 100px;        /* Largura */
+    height: 50px;       /* Altura igual à largura para ser quadrado */
+    border: none;        /* Remove qualquer borda */
+    border-radius: 0;    /* Garante que as pontas fiquem retas */
+    background-color: #5865F2; /* Cor padrão do Discord (opcional) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seu-botao {
+    position: absolute;
+    bottom: 50px; /* Isso fixa ele a 50px do FUNDO do container */
+    left: 50%;
+    transform: translateX(-50%); /* Só centraliza de lado */
+ 
+}
+
+.imagem {
+  width: auto;      /* Ajuste a largura como preferir */
+  height: 200px;     /* Ajuste a altura como preferir */
+
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* O segredo para ficar no meio certinho */
+}
